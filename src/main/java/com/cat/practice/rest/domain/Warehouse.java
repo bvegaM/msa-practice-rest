@@ -13,5 +13,6 @@ public class Warehouse {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    String name; String location;
+    private String name;
+    private String location;
 }

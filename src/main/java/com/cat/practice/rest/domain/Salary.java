@@ -13,5 +13,6 @@ public class Salary {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    Double amount; String period;
+    private Double amount;
+    private String period;
 }

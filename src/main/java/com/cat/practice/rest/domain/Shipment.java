@@ -13,5 +13,6 @@ public class Shipment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    LocalDate shipmentDate; String destination;
+    private LocalDate shipmentDate;
+    private String destination;
 }

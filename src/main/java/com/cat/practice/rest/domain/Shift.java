@@ -13,5 +13,7 @@ public class Shift {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    String description; LocalTime startTime; LocalTime endTime;
+    private String description;
+    private LocalTime startTime;
+    private LocalTime endTime;
 }

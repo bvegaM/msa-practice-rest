@@ -13,5 +13,6 @@ public class Invoice {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    LocalDate date; Double total;
+    private LocalDate date;
+    private Double total;
 }

@@ -13,5 +13,6 @@ public class Discount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    String name; Double percentage;
+    private String name;
+    private Double percentage;
 }

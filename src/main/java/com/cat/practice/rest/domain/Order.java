@@ -13,5 +13,6 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    String code; LocalDate date;
+    private String code;
+    private LocalDate date;
 }

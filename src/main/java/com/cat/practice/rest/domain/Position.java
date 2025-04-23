@@ -13,5 +13,6 @@ public class Position {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    String title; String level;
+    private String title;
+    private String level;
 }

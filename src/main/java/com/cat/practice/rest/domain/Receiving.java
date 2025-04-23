@@ -13,5 +13,6 @@ public class Receiving {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    LocalDate receivingDate; String origin;
+    private LocalDate receivingDate;
+    private String origin;
 }
