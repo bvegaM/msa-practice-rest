@@ -1,3 +1,5 @@
+package com.cat.practice.rest.domain;
+
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.*;
